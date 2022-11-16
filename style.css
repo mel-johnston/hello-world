@@ -60,6 +60,7 @@ section {
     padding-left: 2em;
     padding-right: 2em;
     margin: 5em;
+    margin-top: 1em;
 }
 
 article {
@@ -88,3 +89,17 @@ p {
 footer {
     text-align: center;
 }
+
+#hello {
+    width: 50%;
+    text-align: center;
+    margin-top: 1em;
+    margin-right: 25%;
+    margin-left: 25%;
+    margin-bottom: none;
+    padding: .5em .5em;
+    border: solid 1px #061920;
+    border-radius: 5px;
+}
+
+
