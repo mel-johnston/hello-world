@@ -25,7 +25,17 @@
             </nav>
         </header>
         <div id="hello">
-            <script src="index.js"></script>
+            <script>
+                let usersName = prompt('What is your name?');
+                document.write('Hello ' + usersName + ', ');
+
+                if (confirm("Do you like to travel?")) {
+                    document.write(" since you like to travel, avoid these places!");
+                } else {
+                    document.write(" you've come to the right place to justify staying home.");
+                }
+
+            </script>
         </div>
         <main>
             <section>
