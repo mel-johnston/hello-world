@@ -4,7 +4,7 @@ function sayHi() {
     // document.write('Hello ' + usersName + '!');
     while (usersName == "") {
         alert("You didn't type a name...");
-        usersName = prompt("Please tell me your name.");
+        usersName = prompt("Please tell me your name or else...");
     }
     console.log("The user's name is: " + usersName);
     document.write("Hello and welcome to my page, " + usersName);
