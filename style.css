@@ -105,7 +105,7 @@ footer {
     text-align: center;
 }
 
-#hello {
+#hello, #planes {
     width: 50%;
     text-align: center;
     margin-top: 1em;
@@ -115,4 +115,8 @@ footer {
     padding: .5em .5em;
     border: solid 1px #061920;
     border-radius: 5px;
+}
+
+.plane {
+    width: 30px;
 }
